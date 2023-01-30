@@ -1,0 +1,187 @@
+{}body {
+  background-color: gray;
+  width: 87%;
+  color: yellow;
+}
+
+#geral {
+  color: black;
+  width: 100%;
+  float: left;
+  min-width: 400px;
+  max-width: 1000px;
+  position: absolute;
+  left: 0%;
+}
+
+#menu-home {
+  border: 1px solid #C0D9D9;
+  border-radius: 20px;
+  background-color: black;
+  width: 97%;
+  height: 152px;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  z-index: 1;
+  max-width: 98%;
+  overflow: hidden;
+}
+#menu-home img {
+  width: 110%;
+  height: 100%;
+  
+}
+
+#barra {
+  border: 1px solid white;
+  border-radius: 2px;
+  box-shadow: 10px 10px black;
+  width: 15%;
+  position: relative;
+  z-index: 4;
+  float: left;
+  background-color: orange;
+  
+}
+
+#barra ul {
+  list-style: none;
+  padding-left: 2%;
+}
+
+#barra > ul > li {
+  padding-bottom: 1%;
+}
+
+#barra > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+  width: 85%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20%;
+  background-color: silver;
+  border: 2px outset slategray;
+  border-radius: 10px;
+}
+
+#barra > ul > li > a:hover {
+ width: 87%;
+ background-color: white;
+ color: black;
+ transition: 2s;
+ border: 2px outset gray;
+ box-shadow: 1px 2px black;
+}
+
+#atual {
+  border: 2px outset red;
+}
+
+#conteudo {
+  position: relative;
+  top: 9em;
+  margin: 4%;
+  z-index: 0;
+  text-align: left;
+  padding-left: 4%;
+  overflow: hidden;
+  max-width: 85%;
+  background-color: white;
+  box-shadow: 10px 15px black;
+}
+
+#conteudo .titulo1{
+  color: yellowgreen;
+  font-size: 150%;
+  text-align: center;
+  width: 90%;
+  font-family: cursive;
+  margin: 0;
+  padding: 5%;
+}
+
+#conteudo .desc1 {
+  color: black; /*White ou black*/
+  font-family: fantasy;
+  font-size: 80%;
+  float: left;
+  text-align: center;
+  width: 40%;
+  height: 90%;
+}
+
+#conteudo2 {
+  position: absolute;
+  top: 300%;
+  margin: 4%;
+  z-index: 0;
+  text-align: left;
+  padding-left: 4%;
+  overflow: hidden;
+  max-width: 85%;
+  background-color: snow;
+}
+
+.clear {
+  clear: both;
+}
+
+img.sobre-img {
+  width: 30%;
+  height: 30%;
+  float: left;
+}
+
+img.sobre-img2 {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#pontos-menu {
+  position: fixed;
+  top: 3%;
+  right: 5%;
+  z-index: 3;
+  width: 90%;
+  max-width: 50px;
+  background: black;
+  border: 1px solid white;
+  border-radius: 20%;
+  background-color: orange;
+}
+
+#button-bar {
+  width: 100%;
+  height: 80%; 
+}
+
+#post1 > h1 {
+  margin-top: 2%;
+  padding: 0;
+}
+
+img.img-post {
+  width: 50%;
+  border: 1px solid black;
+  margin: 4%;
+  float: left;
+  
+}
+
+p.desc-post {
+  border: 1px solid black;
+  width: 88%;
+  position: relative;
+  padding: 5px;
+}
+
+#rodape {
+  display: block;
+  position: absolute;
+  top: 120%;
+}
