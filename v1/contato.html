@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tá Estampado - Contato</title>
+  <link rel="stylesheet" href="arquivos/menu.css">
+</head>
+
+<body>
+  <div id="geral">
+    <div id="menu-home">
+     <img src="imagens/logoprincipal01.png" alt="logo tipo">
+     <div id="barra">
+       <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="sobre.html">Sobre</a></li>
+         <li><a href="contato.html" id="atual">Contato</a></li>
+       </ul>
+     </div>
+    </div>
+    <button type="submit" onclick="barra()" id="pontos-menu"><img src="imagens/barras-button.png" alt="barra" id="button-bar"></button>
+     
+    <div id="conteudo">
+      <fieldset>
+        <legend>Informações de contato</legend>
+        <div>
+          <label for="name">Nome: </label>
+          <input type="text" id="name">
+        </div>
+        <div>
+          <label for="produto">Qual produto você tem interrese: </label>
+          <br><select id="produto">
+            <option value="caneca">Caneca</option>
+            <option value="camisa">Camisa</option>
+            <option value="chaveiro">Chaveiro</option>
+            
+          </select>
+        </div>
+      </fieldset>
+      <button type="submit" onclick="enviar()">Enter</button>
+    </div>
+    
+    <div id="rodape">
+      <p>Rodape</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
