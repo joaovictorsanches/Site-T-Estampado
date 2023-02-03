@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tá Estampado - Contato</title>
+  <link rel="stylesheet" href="arquivos/menu.css">
+  <link rel="stylesheet" href="arquivos/contato/conteudo.css">
+  <link rel="stylesheet" href="arquivos/contato/contato.css">
+</head>
+
+<body>
+  <div id="geral">
+    <div id="menu-home">
+     <img src="imagens/logoprincipal01.png" alt="logo tipo">
+     <div id="barra">
+       <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="sobre.html">Sobre</a></li>
+         <li><a href="contato.html" id="atual">Contato</a></li>
+       </ul>
+     </div>
+    </div>
+    <button type="submit" onclick="barra()" id="pontos-menu"><img src="imagens/barras-button.png" alt="barra" id="button-bar"></button>
+     
+    <div id="conteudo">
+      <form id="inforcont">
+        <h1>Contato</h1>
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" placeholder="Digite o seu nome" class="input1">
+        <label for="telefone">Telefone: </label>
+        <input type="tel" id="telefone" placeholder="Digite o seu telefone" class="input1">
+        <label for="produto-det">Detalhes do produto: </label>
+        <textarea id="produto-det" placeholder="Digite detalhes do produto" cols="30" rows="1" class="input1"></textarea>
+        <label for="produto-list">Produto: </label>
+        <select id="produto-list">
+          <option value="caneca">Caneca</option>
+          <option value="garrara">Garrafa</option>
+          <option value="camisa">Camisa</option>
+          <option value="chaveiro">Chaveiro</option>
+          <option value="chinelo">Chinelo</option>
+          <option value="azulejo">Azulejo</option>
+        </select>
+       <input type="button" onclick="enviar()" value="ENVIAR">
+      </form>
+      
+      <div id="infors-dd">
+        <ul>
+          <li>Whatsapp: <a href="">xxxxx-xxxx</a></li>
+          <li>Email: <a href="">teste@teste.com</a></li>
+          <li>Instagram: <a href="https://www.instagram.com/taestampado_/">@taestampado_</a></li>
+        </ul>
+        <a href="https://www.instagram.com/taestampado_/"><img src="../imagens/qrcode.png" alt="qrcode" id="qrcode1"></a>
+      </div>
+    </div>
+  </div>
+  <script src="arquivos/js/main.js"></script>
+</body>
+</html>
