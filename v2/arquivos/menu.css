@@ -1,0 +1,128 @@
+@keyframes reset-color-menu {
+  from {
+    /*Estado inicial*/
+  }
+  to {
+    /*Estado final*/
+    background-color: #1E1E20;
+    box-shadow: 0px 0.3px 5px black;
+  }
+}
+
+body {
+  /*background-image: linear-gradient(to left, red, green, blue, yellow, white, black);*/
+  background-color: gray;
+  width: 87%;
+  color: yellow;
+}
+
+#geral {
+  color: black;
+  width: 100%;
+  float: left;
+  min-width: 400px;
+  max-width: 1000px;
+  position: absolute;
+  left: 0%;
+}
+
+#menu-home {
+  border: 1px solid #C0D9D9;
+  border-radius: 20px;
+  background-color: black;
+  width: 97%;
+  height: 152px;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  z-index: 1;
+  max-width: 98%;
+  overflow: hidden;
+  /*animation-name: reset-color-menu;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;*/
+}
+
+#menu-home img {
+  width: 110%; /*110%*/
+  height: 100%; /*100%*/
+}
+
+#barra {
+  border: 1px solid white;
+  
+  -webkit-border-radius: 20px 5px;
+  -moz-border-radius: 20px 5px;
+  border-radius: 20px 5px;
+  
+  -webkit-box-shadow: 10px 10px 15px black;
+  -moz-box-shadow: 10px 10px 15px black;
+  box-shadow: 10px 10px 15px black;
+  
+  width: 15%;
+  position: fixed;
+  top: 13%;
+  right: -25%;
+  z-index: 4;
+  float: left;
+  background-color: orange;
+}
+
+#barra ul {
+  list-style: none;
+  padding-left: 2%;
+}
+
+#barra > ul > li {
+  padding-bottom: 1%;
+  padding-left: 5%;
+}
+
+#barra > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+  width: 85%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20%;
+  background-color: silver;
+  border: 2px outset slategray;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+  border-radius: 10px;
+ 
+}
+
+#barra > ul > li > a:hover {
+ width: 87%;
+ background-color: white;
+ color: black;
+ transition: 2s;
+ border: 2px outset gray;
+ box-shadow: 1px 2px black;
+}
+
+#pontos-menu {
+  position: fixed;
+  top: 3%;
+  right: 5%;
+  z-index: 3;
+  width: 90%;
+  max-width: 50px;
+  background: black;
+  border: 1px solid white;
+  border-radius: 20%;
+  background-color: orange;
+}
+
+#button-bar {
+  width: 100%;
+  height: 80%;
+}
+
+#atual {
+  border: 2px outset red;
+}
+
