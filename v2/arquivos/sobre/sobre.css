@@ -1,0 +1,15 @@
+img.sobre-img {
+  width: 30%;
+  height: 30%;
+  float: left;
+}
+
+img.sobre-img2 {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
