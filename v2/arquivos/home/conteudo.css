@@ -1,0 +1,56 @@
+#conteudo {
+  position: relative;
+  top: 9em;
+  margin: 4%;
+  z-index: 0;
+  text-align: left;
+  padding-left: 4%;
+  overflow: hidden;
+  max-width: 85%;
+  background-color: white;
+  box-shadow: 24px 50px 20px black;
+  border-radius: 10px 50px;
+}
+
+/*
+#conteudo .titulo1{
+  color: yellowgreen;
+  font-size: 150%;
+  text-align: center;
+  width: 90%;
+  font-family: cursive;
+  margin: 0;
+  padding: 5%;
+}
+#conteudo .desc1 {
+  color: red; White ou black
+  font-family: fantasy;
+  font-size: 80%;
+  float: left;
+  text-align: center;
+  width: 40%;
+  height: 90%;
+  padding: 5px;
+}
+*/
+
+
+#post1 > h1 {
+  margin-top: 2%;
+  padding: 0;
+}
+
+img.img-post {
+  width: 50%;
+  margin: 4% 1%;
+  float: left;
+  
+}
+
+p.desc-post {
+  width: 88%;
+  position: relative;
+  padding: 5px;
+}
+
+
